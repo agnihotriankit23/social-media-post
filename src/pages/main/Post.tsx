@@ -69,7 +69,8 @@ export const Post = (props:Props)=>{
 
     const hasUserLiked = likes?.find((like)=> like.userId=== user?.uid)
 
-    return <div>
+    return <div className="post
+    ">
         <div className="title">
             <h1>{post.title}</h1>
         </div>

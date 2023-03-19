@@ -28,7 +28,7 @@ export const Main = () => {
   }, []);
 
   return (
-    <div>
+    <div className="post-container">
       {postsList?.map((post) => (
         <Post post={post} />
       ))}
